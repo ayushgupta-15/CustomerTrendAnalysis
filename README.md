@@ -22,11 +22,21 @@ This project demonstrates proficiency across the full data analytics pipeline:
 ---
 
 ## 📁 Repository Structure
-*   `Business_Problem_Statement.pdf` - The formal scoping document detailing the business problem and objectives.
-*   `Telco_Customer_Churn_Analysis.ipynb` - The Jupyter Notebook containing all Python-based Data Cleaning, Feature Engineering (`TotalServices`, `TenureBucket`), and Statistical Validation.
-*   `telco_churn_sql_queries.sql` - Advanced SQL queries (utilizing CTEs and aggregations) used to answer complex business questions.
-*   `Project_Report.pdf` - The final executive summary detailing key findings and three strategic recommendations.
-*   `Telco_Customer_Churn.csv` - The raw dataset.
+```text
+CustomerTrendAnalysis/
+├── data/
+│   ├── Telco_Customer_Churn.csv          # Raw dataset
+│   └── Telco_Customer_Churn_Cleaned.csv  # Processed dataset ready for SQL
+├── notebooks/
+│   └── Telco_Customer_Churn_Analysis.ipynb  # EDA, Data Cleaning & Feature Engineering
+├── sql/
+│   └── telco_churn_sql_queries.sql       # Advanced SQL queries (CTEs, aggregations)
+├── reports/
+│   ├── Telco_Customer_Churn_Business_Problem_Statement.pdf  # Project scoping & objectives
+│   └── Project_Report.pdf                # Final executive summary & recommendations
+└── assets/
+    └── *.png                             # Statistical visualizations generated via Seaborn
+```
 
 ---
 
