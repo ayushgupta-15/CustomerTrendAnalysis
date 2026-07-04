@@ -42,8 +42,8 @@ Through rigorous Python EDA and SQL querying, several critical insights were unc
 ## 🚀 How to Replicate this Project
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Customer-Trends-Analysis.git
-   cd Customer-Trends-Analysis
+   git clone https://github.com/ayushgupta-15/CustomerTrendAnalysis.git
+   cd CustomerTrendAnalysis
    ```
 2. **Review the Python Analytics:**
    Open `Telco_Customer_Churn_Analysis.ipynb` to view the data modeling and statistical testing.
